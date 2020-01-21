@@ -4,7 +4,11 @@ import mutations from './mutations';
 
 const defaultState = {
   name:  'Vasia',
-  surname: 'Ivanov'
+  surname: 'Ivanov',
+  parent: {
+    name: 'Ivan',
+    surname: 'Ivanov'
+  }
 }
 
 const inBrowser = typeof window !== 'undefined';
